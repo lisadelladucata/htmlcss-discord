@@ -50,7 +50,7 @@ main :last-child .container{
     border: 1px dashed black;
 }
  */
-footer .small-col{
+/* footer .small-col{
     background-color: #f08080;
     border: 1px dashed black;
     min-height: 600px;
@@ -62,9 +62,6 @@ footer .lil-col{
     min-height: 600px;
 }
 
-footer{
-    background-color: #23272a;
-}
 
 .footer-bottom .container{
     background-color: #7fffd4;
@@ -78,7 +75,7 @@ footer{
 .footer-bottom .btn{
     background-color: #ffb6c1;
     border: 1px dashed black;
-}
+} */
 /*-----------
     GENERAL
 ------------*/
@@ -232,30 +229,65 @@ section:last-of-type .container>div{
     justify-content: center;
 }
 
+section:last-of-type .container{
+    text-align: center;
+}
+
 /*---------------
 FOOTER
 ----------------*/
 footer{
     padding: 50px 0px;
+    background-color: #23272a;
 }
+
 
 footer .container{
     display: flex;
 }
 
 footer .small-col{
-    max-width: 24%;
+    min-width: 24%;
 }
 
 footer .big-col{
     display: flex;
-    max-width: 76%;
+    min-width: 76%;
 }
 
 footer .lil-col{
-    max-width: 25%;
+    min-width: 25%;
+    display: flex;
+    flex-direction: column;
 }
 
+.lil-col a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+
+footer h3{
+    color: #8ea1e1;
+    padding: 10px 0px;
+}
+
+footer h2{
+    color: #8ea1e1;
+    padding: 10px 0px;
+    font-size: 32px;
+}
+
+select{
+    background-color: #23272a;
+    color: white;
+    border-style: none;
+}
+
+.small-col img{
+    max-width: 30px;
+    min-height: 15px;
+}
 .footer-bottom{
     padding:50px 0px;
 }
@@ -264,4 +296,12 @@ footer .lil-col{
     display: flex;
     justify-content: space-between;
     padding: 10px;
+}
+
+.footer-bottom button{
+    background-color: #8ea1e1;
+    padding: 10px 20px;
+    border-style: hidden;
+    border-radius: 15%;
+    color: white;
 }
