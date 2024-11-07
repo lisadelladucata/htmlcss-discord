@@ -84,6 +84,10 @@ footer .lil-col{
     margin: auto;
 }
 
+body{
+    font-family: "Roboto", sans-serif;
+}
+
 /*---------------
 HEADER
 ---------------*/
